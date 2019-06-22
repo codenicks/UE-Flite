@@ -1,0 +1,196 @@
+﻿  audio.c
+..\..\src\audio\audio.c(273): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\src\audio\audio.c(286): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  au_command.c
+  au_none.c
+  au_streaming.c
+  cst_cg.c
+..\..\src\cg\cst_cg.c(343): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\cg\cst_cg.c(381): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\cg\cst_cg.c(394): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\cg\cst_cg.c(400): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\cg\cst_cg.c(613): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  cst_cg_dump_voice.c
+..\..\src\cg\cst_cg_dump_voice.c(52): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(76): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(100): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(104): warning C4244: '=': conversion from 'const __int64' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(109): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(129): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(216): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(238): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(246): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(247): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\cg\cst_cg_dump_voice.c(335): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cst_cg_load_voice.c
+  cst_cg_map.c
+..\..\src\cg\cst_cg_map.c(51): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+  cst_mlpg.c
+..\..\src\cg\cst_mlpg.c(938): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cst_mlsa.c
+..\..\src\cg\cst_mlsa.c(143): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  cst_spamf0.c
+..\..\src\cg\cst_spamf0.c(123): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\cg\cst_spamf0.c(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\cg\cst_spamf0.c(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\cg\cst_spamf0.c(139): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cst_vc.c
+  cst_ffeature.c
+  cst_item.c
+  cst_relation.c
+  cst_rel_io.c
+  cst_utterance.c
+  cst_lexicon.c
+..\..\src\lexicon\cst_lexicon.c(237): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\lexicon\cst_lexicon.c(267): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\lexicon\cst_lexicon.c(351): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cst_lts.c
+..\..\src\lexicon\cst_lts.c(114): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\lexicon\cst_lts.c(139): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\lexicon\cst_lts.c(179): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\lexicon\cst_lts.c(181): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\lexicon\cst_lts.c(182): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cst_regex.c
+..\..\src\regex\cst_regex.c(112): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  regexp.c
+..\..\src\regex\regexp.c(281): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\regex\regexp.c(743): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+..\..\src\regex\regexp.c(745): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+..\..\src\regex\regexp.c(942): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\regex\regexp.c(1102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  regsub.c
+..\..\src\regex\regsub.c(60): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+..\..\src\regex\regsub.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\regex\regsub.c(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  cst_lpcres.c
+..\..\src\speech\cst_lpcres.c(61): warning C4090: 'function': different 'const' qualifiers
+  cst_track.c
+  cst_track_io.c
+..\..\src\speech\cst_track_io.c(117): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\speech\cst_track_io.c(120): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cst_wave.c
+  cst_wave_io.c
+..\..\src\speech\cst_wave_io.c(271): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  cst_wave_utils.c
+  g721.c
+  g723_24.c
+  g723_40.c
+  g72x.c
+..\..\src\speech\g72x.c(295): warning C4244: '=': conversion from 'long' to 'short', possible loss of data
+  rateconv.c
+  cst_cart.c
+  cst_viterbi.c
+  cst_ffeatures.c
+..\..\src\synth\cst_ffeatures.c(190): warning C4133: 'return': incompatible types - from 'const cst_val_int *' to 'const cst_val *'
+..\..\src\synth\cst_ffeatures.c(192): warning C4133: 'return': incompatible types - from 'const cst_val_int *' to 'const cst_val *'
+..\..\src\synth\cst_ffeatures.c(221): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\synth\cst_ffeatures.c(240): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\synth\cst_ffeatures.c(258): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\synth\cst_ffeatures.c(557): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+  cst_phoneset.c
+  cst_ssml.c
+..\..\src\synth\cst_ssml.c(202): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\src\synth\cst_ssml.c(205): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\src\synth\cst_ssml.c(208): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\src\synth\cst_ssml.c(211): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+..\..\src\synth\cst_ssml.c(444): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cst_synth.c
+  cst_utt_utils.c
+  Generating Code...
+  Compiling...
+  cst_voice.c
+  flite.c
+..\..\src\synth\flite.c(354): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\synth\flite.c(493): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cst_alloc.c
+  cst_args.c
+..\..\src\utils\cst_args.c(84): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  cst_endian.c
+  cst_error.c
+  cst_features.c
+  cst_file_stdio.c
+..\..\src\utils\cst_file_stdio.c(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\..\src\utils\cst_file_stdio.c(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\..\src\utils\cst_file_stdio.c(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\..\src\utils\cst_file_stdio.c(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\..\src\utils\cst_file_stdio.c(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\..\src\utils\cst_file_stdio.c(69): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\..\src\utils\cst_file_stdio.c(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\utils\cst_file_stdio.c(76): warning C4267: 'return': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\utils\cst_file_stdio.c(81): warning C4267: 'return': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\utils\cst_file_stdio.c(141): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+  cst_mmap_none.c
+..\..\src\utils\cst_mmap_none.c(72): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\utils\cst_mmap_none.c(73): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+  cst_mmap_win32.c
+..\..\src\utils\cst_mmap_win32.c(106): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+  cst_socket.c
+..\..\src\utils\cst_socket.c(90): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+..\..\src\utils\cst_socket.c(98): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(1850): note: see declaration of 'inet_addr'
+..\..\src\utils\cst_socket.c(101): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(2238): note: see declaration of 'gethostbyname'
+..\..\src\utils\cst_socket.c(123): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+..\..\src\utils\cst_socket.c(134): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+..\..\src\utils\cst_socket.c(170): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+..\..\src\utils\cst_socket.c(180): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+  cst_string.c
+..\..\src\utils\cst_string.c(87): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\utils\cst_string.c(105): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+..\..\src\utils\cst_string.c(167): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\utils\cst_string.c(176): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cst_tokenstream.c
+..\..\src\utils\cst_tokenstream.c(317): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\utils\cst_tokenstream.c(356): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\utils\cst_tokenstream.c(397): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  cst_url.c
+..\..\src\utils\cst_url.c(117): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\utils\cst_url.c(119): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\utils\cst_url.c(119): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: see declaration of 'write'
+..\..\src\utils\cst_url.c(126): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(521): note: see declaration of 'read'
+..\..\src\utils\cst_url.c(150): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2448): note: see declaration of 'fdopen'
+  cst_val.c
+..\..\src\utils\cst_val.c(137): warning C4244: 'return': conversion from 'const __int64' to 'int', possible loss of data
+..\..\src\utils\cst_val.c(156): warning C4244: 'return': conversion from 'const double' to 'float', possible loss of data
+..\..\src\utils\cst_val.c(158): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\src\utils\cst_val.c(674): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  cst_val_const.c
+  cst_val_user.c
+  cst_wchar.c
+..\..\src\utils\cst_wchar.c(50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\utils\cst_wchar.c(67): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cst_clunits.c
+..\..\src\wavesynth\cst_clunits.c(592): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\wavesynth\cst_clunits.c(603): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\wavesynth\cst_clunits.c(648): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cst_diphone.c
+  Generating Code...
+  Compiling...
+  cst_reflpc.c
+  cst_sigpr.c
+  cst_sts.c
+  cst_units.c
+..\..\src\wavesynth\cst_units.c(242): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\src\wavesynth\cst_units.c(281): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\src\wavesynth\cst_units.c(513): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\wavesynth\cst_units.c(559): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\wavesynth\cst_units.c(593): warning C4311: 'type cast': pointer truncation from 'const unsigned char *' to 'int'
+  Generating Code...
+cst_mmap_none.obj : warning LNK4006: cst_free_part_file already defined in cst_mmap_win32.obj; second definition ignored
+cst_mmap_none.obj : warning LNK4006: cst_free_whole_file already defined in cst_mmap_win32.obj; second definition ignored
+cst_mmap_none.obj : warning LNK4006: cst_mmap_file already defined in cst_mmap_win32.obj; second definition ignored
+cst_mmap_none.obj : warning LNK4006: cst_munmap_file already defined in cst_mmap_win32.obj; second definition ignored
+cst_mmap_none.obj : warning LNK4006: cst_read_part_file already defined in cst_mmap_win32.obj; second definition ignored
+cst_mmap_none.obj : warning LNK4006: cst_read_whole_file already defined in cst_mmap_win32.obj; second definition ignored
+  flite.vcxproj -> E:\utaloids\flite\sapi\x64\Release\flite.lib

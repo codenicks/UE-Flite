@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <string.h>
+#include "..\include\flite.h"
+#include "..\include\cst_args.h"
+#include "..\lang\usenglish\usenglish.h"
+#include "..\lang\cmulex\cmu_lex.h"
+#include "..\include\flite_version.h"
+cst_voice *register_cmu_us_kal();
+static cst_voice *cmu_us_no_wave = NULL;
+static cst_utterance *no_wave_synth(cst_utterance *u)
+{
+	return u;
+}
+
+
+static void lookup_and_print(cst_lexicon *l, const char *word, const char *pos)
+{
+	cst_val *p;
+	printf("Lookup: %s %s\n", word, pos);
+	p = lex_lookup(l, word, pos, NULL);
+	val_print(stdout, p);
+	printf("\n");
+	delete_val(p);
+}
+int main(int argc, char **argv)
+{
+	//cst_voice *v;
+	//if (argc != 2)
+	//{
+	//fprintf(stderr,"usage: flite_test FILE\n");
+	//exit(-1);
+	//}
+	//flite_init();
+	//v = register_cmu_us_kal(NULL);
+	//flite_file_to_speech(argv[1],v,"play");
+	//flite_text_to_speech("Hello world!", v, "play");
+
+	cst_voice *v;
+	if (argc != 2)
+	{
+		fprintf(stderr, "usage: flite_test FILE\n");
+		exit(-1);
+	}
+	flite_init();
+	v = new_voice();
+	cst_lexicon *lex;
+	lex = cmu_lex_init();
+	feat_set(v->features, "lexicon", lexicon_val(lex));
+
+
+
+
+
+	lookup_and_print(lex, "sleekit", NULL);
+	lookup_and_print(lex, "chair", NULL);
+	lookup_and_print(lex, "project", "n");
+	lookup_and_print(lex, "project", "v");
+	lookup_and_print(lex, "project", "j");
+	lookup_and_print(lex, "bbcc", NULL);
+	lookup_and_print(lex, "zzzz", NULL);
+	lookup_and_print(lex, "crax", NULL);
+	lookup_and_print(lex, "a", "dt");
+
+	return 0;
+}

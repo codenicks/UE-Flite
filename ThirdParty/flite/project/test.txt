@@ -1,0 +1,21 @@
+<ItemGroup>
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_cg.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_cg_durmodel.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_cg_f0_trees.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_cg_phonestate.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_cg_single_mcep_trees.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_cg_single_params.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_spamf0_accent.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_spamf0_accent_params.c" />
+    <ClCompile Include="..\lang\cmu_us_rms\cmu_us_rms_spamf0_phrase.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lang\cmu_us_rms\cmu_us_rms_cg_durmodel.h" />
+    <ClInclude Include="..\lang\cmu_us_rms\cmu_us_rms_cg_f0_trees.h" />
+    <ClInclude Include="..\lang\cmu_us_rms\cmu_us_rms_cg_single_mcep_trees.h" />
+    <ClInclude Include="..\lang\cmu_us_rms\cmu_us_rms_spamf0_accent.h" />
+    <ClInclude Include="..\lang\cmu_us_rms\cmu_us_rms_spamf0_phrase.h" />
+    <ClInclude Include="..\lang\cmu_us_rms\stdafx.h" />
+    <ClInclude Include="..\lang\cmu_us_rms\voxdefs.h" />
+  </ItemGroup>

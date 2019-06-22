@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FliteTTSPlugin-9845.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\programe\Epic\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\SharedPCH.Core.h.obj"
+"E:\programe\Epic\Unreal Projects\MyProject\Plugins\FliteTTSPlugin\Intermediate\Build\Win64\UE4Editor\Development\FliteTTSPlugin\Module.FliteTTSPlugin.cpp.obj"
+"E:\programe\Epic\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\FliteTTSPlugin\PCLaunch.rc.res"
+"E:\programe\Epic\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\programe\Epic\Unreal Projects\MyProject\Plugins\FliteTTSPlugin\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FliteTTSPlugin-9845.lib"

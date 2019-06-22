@@ -1,0 +1,10 @@
+﻿  flite_test.cpp
+flite.lib(cst_item.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library E:\utaloids\flite\project\Release\project.lib and object E:\utaloids\flite\project\Release\project.exp
+LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+flite_test.obj : error LNK2019: unresolved external symbol "struct cst_val_struct * __cdecl diphone_db_val(struct cst_diphone_db_struct const *)" (?diphone_db_val@@YAPAUcst_val_struct@@PBUcst_diphone_db_struct@@@Z) referenced in function "struct cst_voice_struct * __cdecl register_cmu_us_kal(char const *)" (?register_cmu_us_kal@@YAPAUcst_voice_struct@@PBD@Z)
+flite_test.obj : error LNK2019: unresolved external symbol "struct cst_utterance_struct * __cdecl diphone_synth(struct cst_utterance_struct *)" (?diphone_synth@@YAPAUcst_utterance_struct@@PAU1@@Z) referenced in function "struct cst_voice_struct * __cdecl register_cmu_us_kal(char const *)" (?register_cmu_us_kal@@YAPAUcst_voice_struct@@PBD@Z)
+flite_test.obj : error LNK2019: unresolved external symbol "struct cst_voice_struct * __cdecl register_cmu_us_kal(void)" (?register_cmu_us_kal@@YAPAUcst_voice_struct@@XZ) referenced in function _main
+flite_test.obj : error LNK2001: unresolved external symbol "struct cst_diphone_db_struct cmu_us_kal_db" (?cmu_us_kal_db@@3Ucst_diphone_db_struct@@A)
+E:\utaloids\flite\project\Release\project.exe : fatal error LNK1120: 4 unresolved externals

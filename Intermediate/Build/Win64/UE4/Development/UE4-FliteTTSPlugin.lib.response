@@ -1,0 +1,7 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"E:\programe\Epic\Unreal Projects\MyProject\Plugins\FliteTTSPlugin\Intermediate\Build\Win64\UE4\Development\FliteTTSPlugin\Module.FliteTTSPlugin.cpp.obj"
+"E:\programe\Epic\Unreal Projects\MyProject\Intermediate\Build\Win64\UE4\Development\FliteTTSPlugin\PCLaunch.rc.res"
+/OUT:"E:\programe\Epic\Unreal Projects\MyProject\Plugins\FliteTTSPlugin\Binaries\Win64\UE4-FliteTTSPlugin.lib"

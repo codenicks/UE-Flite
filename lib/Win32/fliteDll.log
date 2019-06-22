@@ -1,0 +1,12 @@
+﻿     Creating library E:\utaloids\flite\x64\Release\fliteDll.lib and object E:\utaloids\flite\x64\Release\fliteDll.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+libflite-cmulex.lib(cmu_postlex.obj) : warning LNK4217: locally defined symbol strchr imported in function apostrophe_s
+libflite-usenglish.lib(us_text.obj) : warning LNK4217: locally defined symbol strchr imported in function state_name
+libflite-usenglish.lib(us_expand.obj) : warning LNK4049: locally defined symbol strchr imported
+libflite-usenglish.lib(us_aswd.obj) : warning LNK4049: locally defined symbol strchr imported
+libflite-cmulex.lib(cmu_lex.obj) : warning LNK4049: locally defined symbol strchr imported
+libflite-usenglish.lib(us_text.obj) : warning LNK4217: locally defined symbol atoi imported in function us_tokentowords_one
+libflite-usenglish.lib(us_expand.obj) : warning LNK4217: locally defined symbol isupper imported in function en_exp_letters
+libflite-usenglish.lib(us_expand.obj) : warning LNK4217: locally defined symbol tolower imported in function en_exp_letters
+  fliteDll.vcxproj -> E:\utaloids\flite\x64\Release\fliteDll.dll
+  fliteDll.vcxproj -> E:\utaloids\flite\x64\Release\fliteDll.pdb (Full PDB)

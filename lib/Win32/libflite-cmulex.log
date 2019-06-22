@@ -1,0 +1,8 @@
+﻿  cmu_lex.c
+  cmu_lex_data.c
+  cmu_lex_entries.c
+  cmu_lts_model.c
+  cmu_lts_rules.c
+  cmu_postlex.c
+  Generating Code...
+  libflite-cmulex.vcxproj -> E:\utaloids\flite\lang\cmulex\x64\Release\libflite-cmulex.lib
