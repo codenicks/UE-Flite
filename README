@@ -1,1 +1,6 @@
-Unzip ThirdParty/flite/project/project.VC.zip (not sure if this file is needed)
+This is a working version of FliteTTS Plugin for UnrealEngine
+I downloaded this project and modified it https://github.com/ideoservo/FliteTTSPlugin
+
+Download all files and folders except "Project source" in YourProject/Plugins/FliteTTSPlugin
+Download "Source" from Project source in YourProject/ and make necessary changes (rename project title and stuff).
+Unzip YourProject/Plugins/FliteTTSPlugin/ThirdParty/flite/project/project.VC.zip (not sure if this file is needed)
