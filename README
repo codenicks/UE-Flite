@@ -1,4 +1,4 @@
-This is a working version of FliteTTS Plugin for UnrealEngine
+This is a working version of FliteTTS Plugin for UnrealEngine 4.18
 I downloaded this project and modified it https://github.com/ideoservo/FliteTTSPlugin
 
 Download all files and folders except "Project source" in YourProject/Plugins/FliteTTSPlugin
